@@ -23,7 +23,19 @@ For those interested in seeing how it all turned out, there are images below sho
 - **Image Storage**: User images and media are stored and retrieved using Firebase Cloud Storage.
 
 ## Installation
-To get the project up and running on your local machine:
+#### Prerequisites
+
+Before getting started, ensure you have the following tools installed on your machine:
+
+1. **Node.js and npm**: Node.js is the runtime environment Tweelon's backend runs on. The Node.js package includes npm, the package manager for JavaScript libraries.
+        Installation guide: [Node.js Official Download Page](https://nodejs.org/en)
+
+2. **React**: Tweelon's frontend is built with React, a JavaScript library for building user interfaces.
+        Installation guide (for a new project): [React's Official Documentation](https://react.dev/)
+
+Once you have these tools installed, you can proceed with the installation of Tweelon as described in the subsequent sections.
+
+#### Clone the repository:
 
 ```
 git clone git@github.com:alexandengstrom/tweelon.git
