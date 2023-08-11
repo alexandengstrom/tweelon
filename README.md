@@ -17,9 +17,9 @@ For those interested in seeing how it all turned out, there are images below sho
 - **Compatibility**: Tweelon is designed to provide a seamless experience for both desktop and mobile users.
 
 ## Tech Stack
-- **Database**: MongoDB, a NoSQL database, handles data storage.
 - **Frontend**: Developed using React.js for a dynamic and interactive UI.
 - **Backend**: The server-side runs on Node.js paired with the Express.js framework.
+- **Database**: MongoDB, a NoSQL database, handles data storage.
 - **Image Storage**: User images and media are stored and retrieved using Firebase Cloud Storage.
 
 ## Installation
