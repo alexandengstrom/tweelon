@@ -61,6 +61,19 @@ cd backend
 npm install
 npm start
 ```
+
+## Further Enhancements and Improvements
+
+In the development journey of Tweelon, while the primary focus was on learning and experimenting, there are certain areas and features that still need attention. Should this platform evolve into a more serious project or be prepared for deployment, several key enhancements and improvements would be essential:
+
+1. **Unit Testing**: The current codebase does not include unit tests. As this project was more of a hands-on learning exercise, the emphasis was not on creating test suites. However, for a robust and production-ready application, implementing unit tests is crucial for stability and reliability.
+2. **Route Validation**: Presently, only the login and register routes are validated in the backend. Before moving to a production environment, rigorous validation for all routes should be undertaken to ensure data integrity and prevent potential security breaches.
+3. **Dynamic Updates in Frontend**: Some UI elements and features do not update dynamically. A case in point is the profile picture upload—after a new upload, a page refresh is necessary to visualize the change. For a seamless user experience, dynamic updates are essential.
+4. **Notification Routes**: The notifications link to /route/postID, but the actual page and functionality for this specific route has not been implemented yet. Implementing this would allow users to directly engage with the related content, enhancing the user experience.
+5. **Code Documentation**: The current project lacks comprehensive comments and documentation in the code. While it served its purpose as a personal learning tool, for collaborative development or further project evolution, more extensive commenting would be invaluable. It aids in understanding the logic, eases debugging, and simplifies any future development processes.
+
+The above improvements have been noted, but due to shifting priorities and the commencement of more pressing projects, there hasn't been an opportunity to address these. Tweelon was invaluable as a learning tool, and these enhancements can serve as a roadmap for anyone looking to evolve this project further.
+
 ## Images
 
 #### Desktop
