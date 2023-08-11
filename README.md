@@ -1,6 +1,11 @@
-# Tweelon
+<p align="center">
+  <img src="https://github.com/alexandengstrom/tweelon/assets/123507241/3fdd66a7-4e64-4c92-aa29-f2e705872e0e" alt="Tweelon logo" width="400"> 
+  <h1>Tweelon</h1>
+</p>
 
-Tweelon is a basic replication of Twitter, aimed primarily at exploring the basics of web development using new-to-me technologies. As a result, certain aspects of the project might deviate from established best practices, as the primary goal was learning through hands-on experimentation.
+_Tweelon_ is my take on replicating something like Twitter. I started this project because I wanted to dive deep into web development, especially using tools and techniques I hadn't worked with before. Instead of just reading about the 'right' ways to do things, I decided to learn everything hands-on, even if it meant making mistakes along the way. This hands-on approach was more about getting a real feel for the process rather than aiming for perfection from the get-go. So, while Tweelon might have parts that don't match up with typical industry standards, it was a fantastic **learning** journey for me.
+
+For those interested in seeing how it all turned out, there are images below showcasing the final product.
 
 ## Features
 - **Auto-loading Feed**: New posts load dynamically as users scroll.
@@ -23,6 +28,24 @@ To get the project up and running on your local machine:
 ```
 git clone git@github.com:alexandengstrom/tweelon.git
 ```
+
+### Configuration
+Before proceeding with the frontend or backend setups, ensure that you have created an **.env** file in the backend directory with the necessary environment variables:
+```
+cd backend
+touch .env
+```
+Inside the **.env** file, add the following variables:
+```
+DB_PATH                      = 
+TOKEN_SECRET_KEY             =
+FIREBASE_API_KEY             = 
+FIREBASE_MESSAGING_SENDER_ID = 
+FIREBASE_APP_ID              = 
+FIREBASE_MEASUREMENT_ID      =
+```
+
+**Make sure to provide values for each environment variable**. For security reasons, these variables should not be shared on GitHub. Although the **.env** file is listed in **.gitignore**, always double-check to ensure it hasn't been committed to your repository.
 
 #### Frontend
 Navigate to the frontend directory, install the necessary packages, and start the development server:
@@ -66,5 +89,6 @@ Notifications:
 ![Screenshot from 2023-08-11 08-45-51](https://github.com/alexandengstrom/tweelon/assets/123507241/ab9e7996-624f-40e2-b13f-3c74f6c52e31)
 
 
+![1691611224129_Untitled design(6)](https://github.com/alexandengstrom/tweelon/assets/123507241/3fdd66a7-4e64-4c92-aa29-f2e705872e0e)
 
 
