@@ -37,7 +37,8 @@ function UploadProfilePicture() {
                 onChange={handleImageChange}
             />
             <a
-                href="#" 
+                href="#"
+                className={styles["upload-image-link"]}
                 onClick={(e) => {
                     e.preventDefault(); 
                     fileInputRef.current.click();

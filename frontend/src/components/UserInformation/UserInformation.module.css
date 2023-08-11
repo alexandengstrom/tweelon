@@ -39,6 +39,11 @@
     align-items: center;
 }
 
+.user-information-following a {
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+
 @media (max-width: 1024px) {
     .user-information-container-flex{
         flex-direction: column;
