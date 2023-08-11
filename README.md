@@ -158,6 +158,6 @@ Notifications:
 ![Screenshot from 2023-08-11 08-45-51](https://github.com/alexandengstrom/tweelon/assets/123507241/ab9e7996-624f-40e2-b13f-3c74f6c52e31)
 
 
-![1691611224129_Untitled design(6)](https://github.com/alexandengstrom/tweelon/assets/123507241/3fdd66a7-4e64-4c92-aa29-f2e705872e0e)
+
 
 
