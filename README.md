@@ -29,7 +29,7 @@ To get the project up and running on your local machine:
 git clone git@github.com:alexandengstrom/tweelon.git
 ```
 
-### Configuration
+#### Configuration
 Before proceeding with the frontend or backend setups, ensure that you have created an **.env** file in the backend directory with the necessary environment variables:
 ```
 cd backend
