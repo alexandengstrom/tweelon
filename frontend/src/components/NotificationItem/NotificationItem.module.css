@@ -1,0 +1,36 @@
+.notification-item-container {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+.notification-item-container:hover {
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+}
+
+.notification-item-container img {
+    margin-right: 30px;
+}
+
+.notification-item-container p {
+    font-size: 0.9rem;
+    color: var(--black)
+}
+
+.notification-item-container-unread {
+    background-color: var(--light-gray);
+    animation: change-color 7s forwards;
+}
+
+@keyframes change-color {
+    from {
+        background-color: var(--light-gray);
+    } to {
+        background-color: white;
+    }
+    
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Ysabeau+SC&display=swap');
+
+
+:root {
+  font-family: 'Raleway', sans-serif;
+  --blue: #1DA1F2;
+  --dark-blue: #1790D8;
+  --black: #14171A;
+  --dark-gray: #657786;
+  --light-gray: #AAB8C2;
+  --extra-light-gray: #E1E8ED;
+  --extra-extra-light-gray: #F5F8FA;
+  --panic: #E0245E;
+
+
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--blue);
+}
+
+a {
+  color: var(--blue);
+}
+
+a:visited {
+  color: var(--blue);
+}
+
+a:hover {
+  color: var(--dark-gray);
+}
+
+input:focus {
+  outline-color: var(--blue);
+  outline-style: solid;
+  outline-width: 2px;
+}
+
+button {
+  background-color: var(--blue);
+  padding: 20px;
+  border-radius: 20px;
+  width: 100px;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--dark-blue);
+}
+
+.warning-message {
+  color: var(--panic);
+  font-weight: 900;
+}

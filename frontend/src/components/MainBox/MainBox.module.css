@@ -1,0 +1,23 @@
+.mainbox-container {
+    background-color: white;
+    width: 1400px;
+    margin: 20px;
+    min-height: 100vh;
+    box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    display: flex;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1024px) {
+    .mainbox-container {
+        width: 100%;
+        margin: 0px;
+        border-radius: 0px;
+        overflow-x: hidden;
+    }
+}

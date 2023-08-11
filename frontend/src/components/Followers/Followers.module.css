@@ -1,0 +1,22 @@
+.followers-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.followers-follower {
+    padding: 20px;
+    width: calc(100% / 3 - 40px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.followers-follower img {
+    margin-bottom: 10px;
+}
+
+.followers-follower a {
+    margin-bottom: 10px;
+}

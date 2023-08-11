@@ -1,0 +1,24 @@
+.login-graphic-container {
+    background-color: var(--blue);
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+
+.login-graphic-container h2 {
+    color: var(--extra-extra-light-gray);
+    font-size: 2.5rem;
+}
+
+@media (max-width: 1024px) {
+    .login-graphic-container {
+        display: none;
+    }
+}

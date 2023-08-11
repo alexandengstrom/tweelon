@@ -1,0 +1,42 @@
+
+
+nav {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-top-left-radius: 10px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+nav p {
+    cursor: pointer;
+}
+
+.navbar-logo {
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1024px) {
+    nav {
+        width: 100%;
+        flex-direction: row;
+        height: 10vh;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        justify-content: space-evenly;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 0px;
+        background-color: var(--blue);
+    }
+
+    .navbar-logo {
+        display: none;
+    }
+}

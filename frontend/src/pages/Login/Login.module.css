@@ -1,0 +1,5 @@
+.login-page-container {
+    display: flex;
+    flex-flow: 1;
+    height: 100%;
+}

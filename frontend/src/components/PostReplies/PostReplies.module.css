@@ -1,0 +1,12 @@
+.post-replies-container {
+    margin-left: 50px;
+    box-sizing: border-box;
+    width: calc(100% - 50px);
+}
+
+@media (max-width: 1024px) {
+    .post-replies-container {
+        margin-left: 0px;
+        width: 100%;
+    }
+}

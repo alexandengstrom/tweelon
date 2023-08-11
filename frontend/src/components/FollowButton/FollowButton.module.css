@@ -1,0 +1,12 @@
+.follow-button {
+    width: 100%;
+    cursor: pointer;
+}
+
+.follow-button-unfollow {
+    background-color: var(--light-gray);
+}
+
+.follow-button-unfollow:hover {
+    background-color: var(--dark-gray);
+}

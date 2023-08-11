@@ -1,0 +1,47 @@
+.post-container {
+    padding: 10px;
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    animation: fade-in 1s forwards;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+    
+}
+
+.post-container:hover {
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+}
+
+.post-right-column {
+    margin-left: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.post-container a {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.post-timestamp {
+    font-size: 0.8rem;
+    color: var(--dark-gray);
+}
+
+.post-image {
+    margin-top: 40px;
+    width: 100%;
+    border-radius: 20px;
+    height: auto;
+}

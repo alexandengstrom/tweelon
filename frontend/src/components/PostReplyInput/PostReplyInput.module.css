@@ -1,0 +1,65 @@
+.post-reply-input-container {
+    padding: 20px;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.post-reply-input-and-button {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.post-reply-input-input {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease;
+    font-family: inherit;
+    margin-left: 20px;
+    width: 100%;
+    resize: none;
+}
+
+.post-reply-input-input:focus {
+    border-color: #1da1f2;
+}
+
+.post-reply-input-button {
+    background-color: var(--blue);
+    width: 100px;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+    margin-left: 20px;
+}
+
+.post-reply-input-button:hover {
+    background-color: #168dd9;
+}
+
+.post-reply-input-button:disabled {
+    background-color: var(--light-gray);
+    cursor: default;
+}
+
+@media (max-width: 1024px) {
+    .post-reply-input-button {
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+
+    .post-reply-input-and-button {
+        flex-direction: column;
+    }
+}

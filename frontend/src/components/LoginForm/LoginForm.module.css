@@ -1,0 +1,84 @@
+.login-form-container {
+    background-color: white;
+    width: 100%;
+    min-height: 700px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.login-form-container > *:not(img) {
+    align-self: stretch;
+}
+
+.login-form-header {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: var(--dark-gray);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input-label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--dark-gray);
+}
+
+.login-input {
+    width: 96%;
+    padding: 2%;
+    border: 1px solid var(--extra-light-gray);
+    border-radius: 5px;
+    font-size: 16px;
+    color: var(--dark-gray);
+}
+
+.login-button {
+    width: 100%;
+    padding: 20px;
+    background-color: var(--blue);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.login-no-account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.login-instructions {
+    color: var(--panic);
+}
+
+.login-offscreen {
+    display: none;
+}
+
+.login-failed {
+    background-color: var(--panic);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    color: var(--extra-light-gray);
+}

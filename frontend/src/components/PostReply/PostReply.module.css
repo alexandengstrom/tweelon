@@ -1,0 +1,28 @@
+.post-reply-header {
+    align-items: center;
+    display: flex;
+}
+
+.post-reply-header a {
+    font-size: 1rem;
+}
+
+.post-reply-name-time {
+    margin-left: 10px;
+}
+
+.post-reply-name-time p {
+    font-size: 0.7rem;
+}
+
+.post-reply-name-time > a {
+    font-size: 0.8rem !important;
+}
+
+.post-reply-container {
+    border-bottom: 1px solid var(--blue);
+    border-bottom-style:dotted;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
