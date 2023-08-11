@@ -86,6 +86,50 @@ In the development journey of Tweelon, while the primary focus was on learning a
 
 The above improvements have been noted, but due to shifting priorities and the commencement of more pressing projects, there hasn't been an opportunity to address these. Tweelon was invaluable as a learning tool, and these enhancements can serve as a roadmap for anyone looking to evolve this project further.
 
+## Requirements
+
+This project consists of a frontend and backend with the following dependencies:
+
+### Frontend
+
+- **axios**: ^1.4.0
+- **jwt-decode**: ^3.1.2
+- **lodash**: ^4.17.21
+- **react**: ^18.2.0
+- **react-dom**: ^18.2.0
+- **react-infinite-scroll-component**: ^6.1.0
+- **react-router-dom**: ^6.14.2
+- **socket.io-client**: ^4.7.2
+
+#### Development Dependencies:
+
+- **@types/react**: ^18.2.15
+- **@types/react-dom**: ^18.2.7
+- **@vitejs/plugin-react**: ^4.0.3
+- **eslint**: ^8.45.0
+- **eslint-plugin-react**: ^7.32.2
+- **eslint-plugin-react-hooks**: ^4.6.0
+- **eslint-plugin-react-refresh**: ^0.4.3
+- **vite**: ^4.4.5
+
+### Backend
+
+- **@hapi/joi**: ^17.1.1
+- **bcryptjs**: ^2.4.3
+- **cors**: ^2.8.5
+- **dotenv**: ^16.3.1
+- **express**: ^4.18.2
+- **express-fileupload**: ^1.4.0
+- **firebase**: ^10.1.0
+- **joi**: ^17.9.2
+- **jsonwebtoken**: ^9.0.1
+- **mongoose**: ^7.4.2
+- **socket.io**: ^4.7.2
+
+#### Development Dependencies:
+
+- **nodemon**: ^3.0.1
+
 ## Images
 
 #### Desktop
